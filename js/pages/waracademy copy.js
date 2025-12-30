@@ -311,7 +311,7 @@ window.initWarAcademy = function () {
 
   /** === 초기 실행 === */
   requestAnimationFrame(() => {
-    document.title = t('waracademy.title', '황금과학기술연구 - KingshotData.kr');
+    document.title = t('waracademy.title', '황금과학기술연구 - bbwg.oyo.cool');
     const h1 = document.querySelector('h1[data-i18n="waracademy.title"]');
     if (h1) h1.textContent = t('waracademy.title', '황금과학기술연구');
 

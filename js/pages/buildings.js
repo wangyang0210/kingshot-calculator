@@ -493,7 +493,7 @@ return `${local}${tgOut}${lvOut}`.trim();
 
       g.innerHTML = items.map(x => x.html).join('');
       g.style.display='grid';
-      document.title = t('title.buildingsList', '건물 목록 - KingshotData.KR');
+      document.title = t('title.buildingsList', '건물 목록 - bbwg.oyo.cool');
       applyI18N(g);
       window.scrollTo({ top: 0 });
     }catch(e){
@@ -551,7 +551,7 @@ return `${local}${tgOut}${lvOut}`.trim();
               <a href="/buildings" data-i18n="buildings.backToList">← ${esc(t('buildings.backToList','건물 목록으로'))}</a>
             </p>
           </div>`;
-        document.title = t('title.notFound', 'Not Found - KingshotData.KR');
+        document.title = t('title.notFound', 'Not Found - bbwg.oyo.cool');
         applyI18N(r);
         window.scrollTo({ top: 0 });
         return;
@@ -653,7 +653,7 @@ r.innerHTML = `
   ${unlocksHtml}
 `;
 
-      document.title = `${t(titleKey, titleFallback)} - KingshotData.KR`;
+      document.title = `${t(titleKey, titleFallback)} - bbwg.oyo.cool`;
       applyI18N(r);
       window.scrollTo({ top: 0 });
     }catch(e){
@@ -717,7 +717,7 @@ r.innerHTML = `
     if (page === 'building' && slug) {
       await renderBuildingDetail(slug, variant);
     } else {
-      document.title = t('title.buildingsList', '건물 목록 - KingshotData.KR');
+      document.title = t('title.buildingsList', '건물 목록 - bbwg.oyo.cool');
     }
   });
 

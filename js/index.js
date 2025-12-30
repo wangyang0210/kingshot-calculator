@@ -74,23 +74,23 @@
   };
 
   const PAGE_TITLES = {
-    buildings: '건물 - KingshotData.KR',
-    database:  '데이터베이스 - KingshotData.KR',
-    calculator:'계산기 - KingshotData.KR',
-    policy:    '이용약관 - KingshotData.KR',
-    about:     '소개 - KingshotData.KR',
-    heroes:    '영웅 - KingshotData.KR',
-    towncenter:          '도시센터 - KingshotData.KR',
-    'truegold-crucible': '순금정련소 - KingshotData.KR',
-    academy:             '아카데미 - KingshotData.KR',
-    embassy:             '대사관 - KingshotData.KR',
-    barracks:            '보병대 - KingshotData.KR',
-    range:               '궁병대 - KingshotData.KR',
-    stable:              '기병대 - KingshotData.KR',
-    'command-center':    '지휘부 - KingshotData.KR',
-    kitchen:             '주방 - KingshotData.KR',
-    storehouse:          '창고 - KingshotData.KR',
-    'guard-station':     '방위소 - KingshotData.KR'
+    buildings: '건물 - bbwg.oyo.cool',
+    database:  '데이터베이스 - bbwg.oyo.cool',
+    calculator:'계산기 - bbwg.oyo.cool',
+    policy:    '이용약관 - bbwg.oyo.cool',
+    about:     '소개 - bbwg.oyo.cool',
+    heroes:    '영웅 - bbwg.oyo.cool',
+    towncenter:          '도시센터 - bbwg.oyo.cool',
+    'truegold-crucible': '순금정련소 - bbwg.oyo.cool',
+    academy:             '아카데미 - bbwg.oyo.cool',
+    embassy:             '대사관 - bbwg.oyo.cool',
+    barracks:            '보병대 - bbwg.oyo.cool',
+    range:               '궁병대 - bbwg.oyo.cool',
+    stable:              '기병대 - bbwg.oyo.cool',
+    'command-center':    '지휘부 - bbwg.oyo.cool',
+    kitchen:             '주방 - bbwg.oyo.cool',
+    storehouse:          '창고 - bbwg.oyo.cool',
+    'guard-station':     '방위소 - bbwg.oyo.cool'
   };
 
   const PAGE_SCRIPTS = {
@@ -260,7 +260,7 @@
     if (my !== navToken) return;
 
     // 7) 타이틀
-    document.title = PAGE_TITLES[key] || 'KingshotData.KR';
+    document.title = PAGE_TITLES[key] || 'bbwg.oyo.cool';
     if (key === 'calculator' && window.I18N?.t) {
       try { document.title = I18N.t('calc.meta.title', document.title); } catch(_) {}
     }

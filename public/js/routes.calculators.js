@@ -345,7 +345,7 @@
     // ---------------------------
     // /calculator (허브)
     routes['/calculator'] = {
-      title: '계산기 - KingshotData.kr',
+      title: '계산기 - bbwg.oyo.cool',
       render: function (el) {
         var guard = createRenderGuard(el, ['/calculator']);
         normalizeWeirdHash();
@@ -391,7 +391,7 @@
     // ---------------------------
     // /calc-building
     routes['/calc-building'] = {
-      title: '건물계산기 - KingshotData.kr',
+      title: '건물계산기 - bbwg.oyo.cool',
       render: function (el) {
         var guard = createRenderGuard(el, ['/calc-building']);
         normalizeWeirdHash();
@@ -454,7 +454,7 @@
     // ---------------------------
     // /calc-gear (외부 gear-calculator.js UI 적용)
     routes['/calc-gear'] = {
-      title: '영주장비계산기 - KingshotData.kr',
+      title: '영주장비계산기 - bbwg.oyo.cool',
       render: function (el) {
         normalizeWeirdHash();
 
@@ -571,7 +571,7 @@
     // ---------------------------
     // /calc-charm
     routes['/calc-charm'] = {
-      title: '영주보석계산기 - KingshotData.kr',
+      title: '영주보석계산기 - bbwg.oyo.cool',
       render: function (el) {
         var guard = createRenderGuard(el, ['/calc-charm']);
         normalizeWeirdHash();
@@ -631,7 +631,7 @@
     // ---------------------------
     // /calc-training
     routes['/calc-training'] = {
-      title: '병력 훈련/승급 계산기 - KingshotData.kr',
+      title: '병력 훈련/승급 계산기 - bbwg.oyo.cool',
       render: function (el) {
         var guard = createRenderGuard(el, ['/calc-training']);
         normalizeWeirdHash();

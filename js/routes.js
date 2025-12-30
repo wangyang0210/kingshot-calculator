@@ -201,7 +201,7 @@
     // ===== 코어 라우트 정의 =====
     var routes = {
       '/home': {
-        title: '홈 - KingshotData.kr',
+        title: '홈 - bbwg.oyo.cool',
         render: async function (el) {
           var token = newRenderToken();
           var cards = [
@@ -236,7 +236,7 @@
             '</div>';
           if (isStale(token)) return;
           apply(el);
-          setTitle('title.home', '홈 - KingshotData.kr');
+          setTitle('title.home', '홈 - bbwg.oyo.cool');
           window.scrollTo({ top: 0 });
           focusMain(el);
         }
@@ -244,7 +244,7 @@
 
       // --- Buildings ---
       '/buildings': {
-        title: '건물 - KingshotData.kr',
+        title: '건물 - bbwg.oyo.cool',
         render: async function (el) {
           var token = newRenderToken();
           try {
@@ -309,7 +309,7 @@
 
           try { window.initBuildings(); } catch (e) { console.error(e); }
 
-          setTitle('title.buildings', '건물 - KingshotData.kr');
+          setTitle('title.buildings', '건물 - bbwg.oyo.cool');
           window.scrollTo({ top: 0 });
           focusMain(el);
         }
@@ -317,7 +317,7 @@
 
       // --- Heroes (list) ---
       '/heroes': {
-        title: '영웅 - KingshotData.kr',
+        title: '영웅 - bbwg.oyo.cool',
         render: async function (el) {
           var token = newRenderToken();
           if (window.performance && performance.mark) performance.mark('route:heroes:start');
@@ -364,7 +364,7 @@
           } else {
             el.insertAdjacentHTML('beforeend','<div class="error" data-i18n="heroes.noInit">initHeroes()가 없습니다.</div>');
           }
-          setTitle('title.heroes', '영웅 - KingshotData.kr');
+          setTitle('title.heroes', '영웅 - bbwg.oyo.cool');
           window.scrollTo({ top: 0 });
           focusMain(el);
 
@@ -377,7 +377,7 @@
 
       // --- Hero detail ---
       '/hero': {
-        title: '영웅 상세 - KingshotData.kr',
+        title: '영웅 상세 - bbwg.oyo.cool',
         render: async function (el, rest) {
           var token = newRenderToken();
           var slug = decodeURIComponent((rest || '').split('/').filter(Boolean)[0] || '');
@@ -432,7 +432,7 @@
             document.addEventListener('i18n:changed', function(){ apply(el); });
             window.__heroI18NReapplyBound = true;
           }
-          var setHeroTitle = function(){ setTitle('heroes.detail.pageTitle','영웅 상세 - KingshotData.kr'); };
+          var setHeroTitle = function(){ setTitle('heroes.detail.pageTitle','영웅 상세 - bbwg.oyo.cool'); };
           setHeroTitle();
           if (!window.__heroTitleBound) {
             document.addEventListener('i18n:changed', setHeroTitle);
@@ -445,7 +445,7 @@
 
       // --- Guides (list + detail) ---
       '/guides': {
-        title: '가이드 - KingshotData.kr',
+        title: '가이드 - bbwg.oyo.cool',
         render: async function (el, rest) {
           var token = newRenderToken();
           var trail = (rest || '').split('/').filter(Boolean).join('/'); // detail slug
@@ -484,7 +484,7 @@
                   '<h2 data-i18n="guides.notFound">가이드를 찾을 수 없습니다.</h2>' +
                   '<p class="muted">/pages/guides/' + slug + '.html 경로를 확인하세요.</p>' +
                 '</div>';
-              setTitle('guides.title', '가이드 - KingshotData.kr');
+              setTitle('guides.title', '가이드 - bbwg.oyo.cool');
               return;
             }
 
@@ -503,7 +503,7 @@
             if (window.GUIDES_apply) await window.GUIDES_apply(el);
             if (isStale(token)) return;
 
-            setTitle('guides.title', '가이드 - KingshotData.kr');
+            setTitle('guides.title', '가이드 - bbwg.oyo.cool');
             window.scrollTo({ top: 0 });
             focusMain(el);
 
@@ -556,7 +556,7 @@
             }
           });
 
-          setTitle('guides.title', '가이드 - KingshotData.kr');
+          setTitle('guides.title', '가이드 - bbwg.oyo.cool');
           window.scrollTo({ top: 0 });
           focusMain(el);
         }
@@ -565,7 +565,7 @@
 
       // --- War Academy 메인 ---
 '/waracademy': {
-  title: 'War Academy - KingshotData.kr',
+  title: 'War Academy - bbwg.oyo.cool',
   render: async function (el) {
     var token = newRenderToken();
     el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -597,7 +597,7 @@
       window.initWarAcademy();
     }
 
-    setTitle('title.waracademy', 'War Academy - KingshotData.kr');
+    setTitle('title.waracademy', 'War Academy - bbwg.oyo.cool');
     window.scrollTo({ top: 0 });
     focusMain(el);
   }
@@ -605,7 +605,7 @@
 
 // --- War Academy: Infantry ---
 '/waracademy-infantry': {
-  title: 'War Academy · Truegold Infantry - KingshotData.kr',
+  title: 'War Academy · Truegold Infantry - bbwg.oyo.cool',
   render: async function (el) {
     var token = newRenderToken();
     el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -631,7 +631,7 @@
       console.warn('[i18n] Infantry 번역 로드 실패', e);
     }
 
-    setTitle('title.waracademy-infantry', 'War Academy · Truegold Infantry - KingshotData.kr');
+    setTitle('title.waracademy-infantry', 'War Academy · Truegold Infantry - bbwg.oyo.cool');
     window.scrollTo({ top: 0 });
     focusMain(el);
   }
@@ -639,7 +639,7 @@
 
 // --- War Academy: Archer ---
 '/waracademy-archer': {
-  title: 'War Academy · Truegold Archer - KingshotData.kr',
+  title: 'War Academy · Truegold Archer - bbwg.oyo.cool',
   render: async function (el) {
     var token = newRenderToken();
     el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -665,7 +665,7 @@
       console.warn('[i18n] Archer 번역 로드 실패', e);
     }
 
-    setTitle('title.waracademy-archer', 'War Academy · Truegold Archer - KingshotData.kr');
+    setTitle('title.waracademy-archer', 'War Academy · Truegold Archer - bbwg.oyo.cool');
     window.scrollTo({ top: 0 });
     focusMain(el);
   }
@@ -673,7 +673,7 @@
 
 // --- War Academy: Cavalry ---
 '/waracademy-cavalry': {
-  title: 'War Academy · Truegold Cavalry - KingshotData.kr',
+  title: 'War Academy · Truegold Cavalry - bbwg.oyo.cool',
   render: async function (el) {
     var token = newRenderToken();
     el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -699,7 +699,7 @@
       console.warn('[i18n] Cavalry 번역 로드 실패', e);
     }
 
-    setTitle('title.waracademy-cavalry', 'War Academy · Truegold Cavalry - KingshotData.kr');
+    setTitle('title.waracademy-cavalry', 'War Academy · Truegold Cavalry - bbwg.oyo.cool');
     window.scrollTo({ top: 0 });
     focusMain(el);
   }
@@ -709,7 +709,7 @@
 
       // --- Database list ---
       '/database': {
-        title: '데이터베이스 - KingshotData.kr',
+        title: '데이터베이스 - bbwg.oyo.cool',
         render: async function (el) {
           var token = newRenderToken();
           el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -749,7 +749,7 @@
           }
           if (isStale(token)) return;
 
-          setTitle('title.database', '데이터베이스 - KingshotData.kr');
+          setTitle('title.database', '데이터베이스 - bbwg.oyo.cool');
           if (window.I18N && window.I18N.applyTo) window.I18N.applyTo(el);
           window.scrollTo({ top: 0 });
           focusMain(el);
@@ -758,7 +758,7 @@
 
       // --- Database detail proxy (/db/:folder/:file...) ---
       '/db': {
-        title: 'KingshotData.kr',
+        title: 'bbwg.oyo.cool',
         render: async function (el, rest) {
           var token = newRenderToken();
           var parts  = (rest || '').split('/').filter(Boolean);
@@ -826,7 +826,7 @@
             var h1 = el.querySelector('h1[data-i18n], h1[data-i18n-key]');
             if (h1) {
               var k = h1.getAttribute('data-i18n') || h1.getAttribute('data-i18n-key');
-              setTitle(k, (window.I18N && window.I18N.t && window.I18N.t(k)) || h1.textContent || 'KingshotData.kr');
+              setTitle(k, (window.I18N && window.I18N.t && window.I18N.t(k)) || h1.textContent || 'bbwg.oyo.cool');
             }
           })(el);
 
@@ -837,7 +837,7 @@
 
       // --- Privacy ---
       '/privacy': {
-        title: '개인정보처리방침 - KingshotData.kr',
+        title: '개인정보처리방침 - bbwg.oyo.cool',
         render: async function (el) {
           var token = newRenderToken();
           el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -846,7 +846,7 @@
           el.innerHTML = html
             ? htmlBodyOnly(html)
             : '<div class="placeholder"><h2 data-i18n="privacy.title">개인정보처리방침</h2><p class="muted" data-i18n="privacy.missing">privacy.html을 찾을 수 없습니다.</p></div>';
-          setTitle('title.privacy', '개인정보처리방침 - KingshotData.kr');
+          setTitle('title.privacy', '개인정보처리방침 - bbwg.oyo.cool');
           window.scrollTo({ top: 0 });
           focusMain(el);
         }
@@ -854,7 +854,7 @@
 
       // --- About ---
       '/about': {
-        title: '소개 - KingshotData.kr',
+        title: '소개 - bbwg.oyo.cool',
         render: async function (el) {
           var token = newRenderToken();
           el.innerHTML = '<div class="loading" data-i18n="common.loading">Loading…</div>';
@@ -863,7 +863,7 @@
           el.innerHTML = html
             ? htmlBodyOnly(html)
             : '<div class="placeholder"><h2 data-i18n="about.title">소개</h2><p class="muted" data-i18n="about.missing">about.html을 찾을 수 없습니다.</p></div>';
-          setTitle('title.about', '소개 - KingshotData.kr');
+          setTitle('title.about', '소개 - bbwg.oyo.cool');
           window.scrollTo({ top: 0 });
           focusMain(el);
         }
@@ -872,7 +872,7 @@
 
     // --- /guide 별칭(레거시 링크 호환) → /guides 로 위임
     routes['/guide'] = {
-      title: '가이드 - KingshotData.kr',
+      title: '가이드 - bbwg.oyo.cool',
       render: function (el, rest) { return routes['/guides'].render(el, rest); }
     };
 

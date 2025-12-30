@@ -94,7 +94,7 @@
     const ctas = document.createElement('div');
     ctas.className = 'footer-ctas';
     ctas.innerHTML = `
-      <a href="https://kingshotdata.kr/pages/guides/kingshot-giftcode.html" target="_blank" rel="noopener noreferrer"
+      <a href="https://bbwg.oyo.cool/pages/guides/kingshot-giftcode.html" target="_blank" rel="noopener noreferrer"
          aria-label="${giftAria}">
         ${iconGift()} <strong>${giftText}</strong>
       </a>

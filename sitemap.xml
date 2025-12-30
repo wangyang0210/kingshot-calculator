@@ -5,24 +5,24 @@
 
   <!-- 메인 페이지 -->
   <url>
-    <loc>https://kingshotdata.kr/</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/" />
+    <loc>https://bbwg.oyo.cool/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/" />
     <lastmod>2025-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/home</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/home" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/home" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/home" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/home" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/home" />
+    <loc>https://bbwg.oyo.cool/home</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/home" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/home" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/home" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/home" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/home" />
     <lastmod>2025-09-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -30,36 +30,36 @@
 
   <!-- 히어로 / 건물 / 데이터 -->
   <url>
-    <loc>https://kingshotdata.kr/heroes</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/heroes" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/heroes" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/heroes" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/heroes" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/heroes" />
+    <loc>https://bbwg.oyo.cool/heroes</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/heroes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/heroes" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/heroes" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/heroes" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/heroes" />
     <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/buildings</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/buildings" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/buildings" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/buildings" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/buildings" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/buildings" />
+    <loc>https://bbwg.oyo.cool/buildings</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/buildings" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/buildings" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/buildings" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/buildings" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/buildings" />
     <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/pages/database</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/pages/database" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/pages/database" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/pages/database" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/pages/database" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/pages/database" />
+    <loc>https://bbwg.oyo.cool/pages/database</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/pages/database" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/pages/database" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/pages/database" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/pages/database" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/pages/database" />
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -67,24 +67,24 @@
 
   <!-- 가이드 -->
   <url>
-    <loc>https://kingshotdata.kr/pages/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/pages/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/pages/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/pages/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/pages/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/pages/guide.html" />
+    <loc>https://bbwg.oyo.cool/pages/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/pages/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/pages/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/pages/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/pages/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/pages/guide.html" />
     <lastmod>2025-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/pages/guides/topup-guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/pages/guides/topup-guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/pages/guides/topup-guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/pages/guides/topup-guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/pages/guides/topup-guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/pages/guides/topup-guide.html" />
+    <loc>https://bbwg.oyo.cool/pages/guides/topup-guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/pages/guides/topup-guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/pages/guides/topup-guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/pages/guides/topup-guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/pages/guides/topup-guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/pages/guides/topup-guide.html" />
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -92,60 +92,60 @@
 
   <!-- 계산기 -->
   <url>
-    <loc>https://kingshotdata.kr/calculator</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/calculator" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/calculator" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/calculator" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/calculator" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/calculator" />
+    <loc>https://bbwg.oyo.cool/calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/calculator" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/calculator" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/calculator" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/calculator" />
     <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/calc-building</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/calc-building" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/calc-building" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/calc-building" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/calc-building" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/calc-building" />
+    <loc>https://bbwg.oyo.cool/calc-building</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/calc-building" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/calc-building" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/calc-building" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/calc-building" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/calc-building" />
     <lastmod>2025-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/calc-gear</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/calc-gear" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/calc-gear" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/calc-gear" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/calc-gear" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/calc-gear" />
+    <loc>https://bbwg.oyo.cool/calc-gear</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/calc-gear" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/calc-gear" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/calc-gear" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/calc-gear" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/calc-gear" />
     <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/calc-charm</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/calc-charm" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/calc-charm" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/calc-charm" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/calc-charm" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/calc-charm" />
+    <loc>https://bbwg.oyo.cool/calc-charm</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/calc-charm" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/calc-charm" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/calc-charm" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/calc-charm" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/calc-charm" />
     <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/calc-training</loc>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://kingshotdata.kr/calc-training" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/en/calc-training" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://kingshotdata.kr/ja/calc-training" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://kingshotdata.kr/zh-cn/calc-training" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kingshotdata.kr/zh-tw/calc-training" />
+    <loc>https://bbwg.oyo.cool/calc-training</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://bbwg.oyo.cool/calc-training" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/en/calc-training" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://bbwg.oyo.cool/ja/calc-training" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://bbwg.oyo.cool/zh-cn/calc-training" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://bbwg.oyo.cool/zh-tw/calc-training" />
     <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -153,16 +153,16 @@
 
     <!-- 정보 페이지 -->
   <url>
-    <loc>https://kingshotdata.kr/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/about" />
+    <loc>https://bbwg.oyo.cool/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/about" />
     <lastmod>2025-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://kingshotdata.kr/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kingshotdata.kr/privacy" />
+    <loc>https://bbwg.oyo.cool/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bbwg.oyo.cool/privacy" />
     <lastmod>2025-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>

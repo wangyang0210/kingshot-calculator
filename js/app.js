@@ -1,4 +1,4 @@
-// /public/js/app.js — SPA Router (History API) for KingshotData.kr
+// /public/js/app.js — SPA Router (History API) for bbwg.oyo.cool
 // v2025-09-17+opt (bundle-aware: routes.js / routes.calculators.js)
 // ES5-compatible (no arrow functions / optional chaining)
 //
