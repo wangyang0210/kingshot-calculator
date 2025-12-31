@@ -11,26 +11,26 @@
         .replace('_', '-');
 
     // Normalize zh variants -> cn/tw buckets used by /locales/{lang}
-    if (lang === 'cn' || lang === 'zh' || lang.startsWith('zh-cn') || lang.includes('hans')) return 'cn';
-    if (lang === 'tw' || lang.startsWith('zh-tw') || lang.includes('hk') || lang.includes('mo') || lang.includes('hant')) return 'tw';
+    if (lang === 'cn' || lang === 'zh' || lang.startsWith('zh-cn') || lang.includes('hans')) return 'zh-CN';
+    if (lang === 'tw' || lang.startsWith('zh-tw') || lang.includes('hk') || lang.includes('mo') || lang.includes('hant')) return 'zh-TW';
     if (lang.startsWith('ja')) return 'ja';
     if (lang.startsWith('ko')) return 'ko';
     if (lang.startsWith('en')) return 'en';
     // Accept direct short codes if present in your folders
-    if (['en', 'ko', 'ja', 'cn', 'tw'].includes(lang)) return lang;
+    if (['en', 'ko', 'ja', 'zh-CN', 'zh-TW'].includes(lang)) return lang;
     // Fallback
     return 'en';
   }
 
   const __LANG__ = detectLangAlias();
   // Keep <html lang> in a standards-friendly code for accessibility/SEO
-  document.documentElement.lang = (__LANG__ === 'cn') ? 'zh-CN' : (__LANG__ === 'tw') ? 'zh-TW' : __LANG__;
+  document.documentElement.lang = __LANG__;
 
   // ===== I18N bootstrap =====================================================
   window.I18N.init({
-    lang: __LANG__,                   // <- auto-detected (ko/en/ja/cn/tw)
-    namespaces: ['waracademy'],       // 사용할 JSON 네임스페이스
-    path: '/locales/{lang}/{ns}.json' // 실제 JSON 경로
+    lang: __LANG__,                   // <- auto-detected (ko/en/ja/zh-CN/zh-TW)
+    namespaces: ['common', 'waracademy'],       // 사용할 JSON 네임스페이스
+    path: '/i18n/{lang}/{ns}.json' // 실제 JSON 경로
   }).then(() => {
     // If your I18N lib exposes setLang(), ensure runtime state matches
     if (typeof window.I18N.setLang === 'function') {

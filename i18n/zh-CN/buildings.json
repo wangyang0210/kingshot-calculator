@@ -7,11 +7,11 @@
   "buildings.unlocks": "解锁",
   "buildings.kitchenSchedule": "厨房日程",
 
-  "buildings.col.gold": "真金",
+  "buildings.col.gold": "黄金",
   "buildings.col.bread": "面包",
   "buildings.col.wood": "木材",
   "buildings.col.stone": "石材",
-  "buildings.col.iron": "铁",
+  "buildings.col.iron": "铁矿",
   "buildings.col.level": "等级",
   "buildings.col.reqTown": "所需城镇中心",
   "buildings.col.buildTime": "建造时间",
@@ -31,7 +31,7 @@
   "buildings.col.itemUpgradeCost": "道具升级花费",
   "buildings.col.itemTotalCost": "道具总花费",
   "buildings.col.category": "类别",
-  "buildings.col.amount": "获得真金",
+  "buildings.col.amount": "获得黄金",
   "buildings.col.chance": "概率",
   "buildings.col.refineCount": "精炼次数",
 
@@ -78,7 +78,7 @@
   "buildings.command.note.levelup": "升级指挥部可增加集结容量和出征部队。",
 
   "buildings.col.reqbuilding": "所需建筑",
-  "buildings.col.truegold": "真金",
+  "buildings.col.truegold": "黄金",
   "buildings.col.buildtime": "建造时间",
   "buildings.col.rallycapacity": "集结容量",
   "buildings.col.marchtroops": "出征部队",
@@ -87,16 +87,16 @@
   "buildings.card.infirmary.subtitle": "Lv.1–55",
   "buildings.card.infirmary.desc": "可以治疗受伤部队的建筑。",
 
-  "buildings.card.truegold-crucible.title": "真金熔炉",
-  "buildings.card.truegold-crucible.subtitle": "真金兑换",
-  "buildings.card.truegoldCrucible.desc": "真金熔炉是当王国达到TG 5级时解锁的特殊建筑，消耗面包、木材、石材和铁来炼制少量真金。",
+  "buildings.card.truegold-crucible.title": "黄金熔炉",
+  "buildings.card.truegold-crucible.subtitle": "黄金兑换",
+  "buildings.card.truegoldCrucible.desc": "黄金熔炉是当王国达到TG 5级时解锁的特殊建筑，消耗面包、木材、石材和铁矿来炼制少量黄金。",
 
   "buildings.truegoldCrucible.unlock.tg5": "王国达到TG 5级时立即解锁",
   "buildings.truegoldCrucible.unlock.noCost": "无需建造资源",
   "buildings.truegoldCrucible.unlock.noLevel": "无升级等级",
-  "buildings.truegoldCrucible.unlock.dailyOutput": "每日平均产出约10.5真金（期望值）",
+  "buildings.truegoldCrucible.unlock.dailyOutput": "每日平均产出约10.5黄金（期望值）",
 
-  "buildings.col.truegoldAmount": "真金数量",
+  "buildings.col.truegoldAmount": "黄金数量",
   "buildings.col.probability": "概率",
 
   "buildings.card.guard-station.title": "防御所",
@@ -170,7 +170,7 @@
 "buildings.stable.unlock.lv26": "等级26: 荣耀骑兵",
 "buildings.stable.unlock.lv30": "等级30: 王牌骑兵",
 
-"buildings.stable.unlock.tg": "TG1~TG5: 解锁真金骑兵",
+"buildings.stable.unlock.tg": "TG1~TG5: 解锁黄金骑兵",
 
   "buildings.card.range.title": "弓箭兵营",
 "buildings.card.range.subtitle": "Lv.1–30 + TG1–5",
@@ -189,12 +189,12 @@
 
 "buildings.card.war-academy.title": "战争学院",
 "buildings.card.war-academy.subtitle": "TG1–TG5",
-"buildings.card.war-academy.desc": "战争学院研究真金粉在战场上的应用，以提升士兵的战斗力。",
+"buildings.card.war-academy.desc": "战争学院研究黄金粉在战场上的应用，以提升士兵的战斗力。",
 
-"buildings.detail.war-academy.desc": "战争学院是在王国开启约220天后解锁的研究建筑。建成后，通过完成各兵种的研究树可以解锁T11部队（真金步兵、骑兵、弓兵）。它还提供强大的升级，增强部队部署规模、集结容量和整体部队属性。\n\n要在战争学院开始研究，需要一种新的材料——真金粉（与学院一起解锁），以及面包、木材、石材和铁等常规资源。真金粉可以通过购买礼包，或在战争学院内用真金/金币兑换获得。\n\n兑换规则如下:\n- 金币: 5,000金币 → 1个真金粉（每天最多20次）\n- 真金: 10个真金 → 13个真金粉（每天最多200次，最多获得2,600真金粉/天）",
+"buildings.detail.war-academy.desc": "战争学院是在王国开启约220天后解锁的研究建筑。建成后，通过完成各兵种的研究树可以解锁T11部队（黄金步兵、骑兵、弓兵）。它还提供强大的升级，增强部队部署规模、集结容量和整体部队属性。\n\n要在战争学院开始研究，需要一种新的材料——黄金粉（与学院一起解锁），以及面包、木材、石材和铁矿等常规资源。黄金粉可以通过购买礼包，或在战争学院内用黄金/金币兑换获得。\n\n兑换规则如下:\n- 金币: 5,000金币 → 1个黄金粉（每天最多20次）\n- 黄金: 10个黄金 → 13个黄金粉（每天最多200次，最多获得2,600黄金粉/天）",
 
 "buildings.war-academy.unlock.lv1": "王国存续约220天后解锁",
-"buildings.war-academy.unlock.lv5": "解锁T11部队：真金步兵、骑兵、弓兵",
+"buildings.war-academy.unlock.lv5": "解锁T11部队：黄金步兵、骑兵、弓兵",
 "buildings.war-academy.unlock.tg": "研究可提升部队部署、集结容量和部队属性"
 
 

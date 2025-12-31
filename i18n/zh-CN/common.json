@@ -13,6 +13,7 @@
   "footer.disclaimer1": "所有游戏图片和数据的版权归Century Games所有。",
   "footer.disclaimer2": "本网站是一个非官方粉丝网站。",
   "footer.privacy": "隐私政策",
+  "footer.cta.gift": "兑换码指南",
 
   "home.categoriesTitle": "分类",
   "home.card.buildings.title": "建筑",
@@ -36,8 +37,8 @@
   "title.guides": "指南 - bbwg.oyo.cool",
   "title.calculators": "计算器 - bbwg.oyo.cool",
   "title.calcBuilding": "建筑计算器 - bbwg.oyo.cool",
-  "title.calcGear": "总督装备计算器 - bbwg.oyo.cool",
-  "title.calcCharm": "总督宝石计算器 - bbwg.oyo.cool",
+  "title.calcGear": "领主装备计算器 - bbwg.oyo.cool",
+  "title.calcCharm": "领主宝石计算器 - bbwg.oyo.cool",
   "title.calcTraining": "部队训练/晋升计算器 - bbwg.oyo.cool",
   "title.privacy": "隐私政策 - bbwg.oyo.cool",
   "title.about": "关于 - bbwg.oyo.cool",
@@ -108,6 +109,6 @@
   "calc.form.building.option.war-academy": "战争学院",
 
     "home.card.waracademy.title": "战争学院",
-  "home.card.waracademy.desc": "查看真金兵种的研究条件和加成效果。"
+  "home.card.waracademy.desc": "查看黄金兵种的研究条件和加成效果。"
 
 }

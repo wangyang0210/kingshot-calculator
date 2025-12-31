@@ -1,12 +1,11 @@
 {
   "coupons": [
-    { "code": "THEKINGSTORE", "until": "2026-1-5" },
-    { "code": "VIP777", "until": "" },
-    { "code": "KINGSHOTXMAS", "until": "2025-12-31" },
-    { "code": "STORELAUNCH", "until": "" },
-    { "code": "JackKaoAndKS", "until": "" }   
-    
-    
-            
+    { "code": "BBWG1230", "until": "2026-1-1" },
+    { "code": "BBWGVIP", "until": "" },
+    { "code": "BBWG2025", "until": "" },
+    { "code": "BBWG666", "until": "" },
+    { "code": "BBWG777", "until": "" },   
+    { "code": "BBWG888", "until": "" },  
+    { "code": "BBWG520", "until": "" }  
   ]
 }

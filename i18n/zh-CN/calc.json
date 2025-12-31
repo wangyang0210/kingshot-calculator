@@ -77,11 +77,11 @@
         "building": "建筑",
         "level": "等级",
         "time": "建造时间",
-        "bread": "粮食",
+        "bread": "面包",
         "wood": "木材",
-        "stone": "石料",
-        "iron": "铁",
-        "truegold": "真金"
+        "stone": "石材",
+        "iron": "铁矿",
+        "truegold": "黄金"
       }
     },
     "common": {
@@ -386,8 +386,8 @@
     "title": "计算器",
     "cards": {
       "building": { "title": "建筑计算器" },
-      "gear":     { "title": "总督装备计算器" },
-      "charm":    { "title": "总督宝石计算器" },
+      "gear":     { "title": "领主装备计算器" },
+      "charm":    { "title": "领主宝石计算器" },
       "training": { "title": "训练/升阶计算器" }
     }
   }

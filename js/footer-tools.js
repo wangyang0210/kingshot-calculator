@@ -98,11 +98,11 @@
          aria-label="${giftAria}">
         ${iconGift()} <strong>${giftText}</strong>
       </a>
-      <a class="kakao" href="https://open.kakao.com/o/gHPnO4uh" target="_blank" rel="noopener noreferrer"
-         aria-label="${chatAria}">
-        ${iconChat()} <strong>${chatText}</strong>
-      </a>
     `;
+    //  <a class="kakao" href="https://open.kakao.com/o/gHPnO4uh" target="_blank" rel="noopener noreferrer"
+    //      aria-label="${chatAria}">
+    //     ${iconChat()} <strong>${chatText}</strong>
+    //   </a>
 
     // Coupons (원본 + expired 클래스만 추가)
     const couponWrap = document.createElement('div');
