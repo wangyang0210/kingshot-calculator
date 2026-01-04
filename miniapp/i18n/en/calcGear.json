@@ -1,0 +1,72 @@
+{
+  "calcGear": {
+    "meta": { "title": "Governor Gear Calculator | KingshotData KR" },
+    "title": "Governor Gear Calculator",
+    "desc": "Use this quick Kingshot governor gear calculator.",
+    "howto": {
+      "title": "How to Use",
+      "step1": "Select your current governor gear level.",
+      "step2": "Select the target level you want to upgrade to.",
+      "step3": "Choose the gear slots to upgrade from the tabs.",
+      "slotsHelp": "Slots: Hat·Necklace (Cavalry), Armor·Pants (Infantry), Ring·Staff (Archer)",
+      "step4": "Click Calculate."
+    },
+    "notice": {
+      "title": "Notes",
+      "p1": "This is fan-made data based on in-game values.",
+      "li1": "Numbers may change due to patches/balance adjustments.",
+      "li2": "Please report typos or errors via Contact.",
+      "contact": "Contact"
+    },
+    "slots": {
+      "hat": "Hat",
+      "necklace": "Necklace",
+      "armor": "Armor",
+      "pants": "Pants",
+      "ring": "Ring",
+      "staff": "Staff"
+    },
+    "classes": {
+      "cavalry": "Cavalry",
+      "infantry": "Infantry",
+      "archer": "Archer"
+    },
+    "actions": {
+      "calculate": "Calculate",
+      "clear": "Clear",
+      "showDetail": "Show Details",
+      "hideDetail": "Hide Details"
+    },
+    "kpi": {
+      "satin": "Satin",
+      "thread": "Gold Thread",
+      "sketch": "Design Sketch",
+      "score": "Gear Score"
+    },
+    "cols": {
+      "slot": "Slot",
+      "class": "Class",
+      "satin": "Satin",
+      "thread": "Gold Thread",
+      "sketch": "Design Sketch",
+      "score": "Score",
+      "total": "Total",
+      "selected": "Selected {n}",
+      "current": "Current Level",
+      "target": "Target Level",
+      "manual": "Manual Needed",
+      "blueprint": "Blueprint Needed",
+      "attribute": "Attribute Gain"
+    },
+    "alerts": {
+      "needSlot": "Select at least one slot.",
+      "invalidRange": "The current level must be lower than the target level.",
+      "loadFail": "Failed to load data."
+    },
+    "misc": {
+      "from": "Current Level",
+      "to": "Target Level",
+      "hint": "Sum multiple slots at once. If costs differ by slot, provide per-slot steps via stepsMap."
+    }
+  }
+}

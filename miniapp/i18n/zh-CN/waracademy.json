@@ -1,0 +1,60 @@
+{
+  "waracademy": {
+    "title": "战争学院（真金兵种）",
+    "page_title": "战争学院（真金兵种） - bbwg.oyo.cool",
+    "section": { "hint": "请查看研究条件、消耗和效果。" },
+    "infantry": { "title": "真金步兵", "desc": "请查看研究条件、消耗和效果。", "alt": "真金步兵" },
+    "archer": { "title": "真金弓箭手", "desc": "请查看研究条件、消耗和效果。", "alt": "真金弓箭手" },
+    "cavalry": { "title": "真金骑兵", "desc": "请查看研究条件、消耗和效果。", "alt": "真金骑兵" },
+    "requirements": { "title": "研究条件" },
+    "bonuses": {
+      "title": "加成",
+      "squad_capacity": "部队容量",
+      "health": "生命值",
+      "lethality": "杀伤力",
+      "attack": "攻击力",
+      "defense": "防御力",
+      "rally_capacity": "集结容量"
+    },
+    "meta": {
+      "buildings": "建筑要求",
+      "towncenter": "主城",
+      "waracademy": "战争学院",
+      "total_time": "总研究时间",
+      "days": "天",
+      "bread": "粮食",
+      "wood": "木材",
+      "stone": "石料",
+      "iron": "铁",
+      "gold": "金币",
+      "dust": "真金粉末",
+      "bonus_title": "加成效果"
+    },
+    "labels": {
+      "waracademy": "战争学院",
+      "towncenter": "主城",
+      "archers": "弓箭手",
+      "archer": "弓箭手",
+      "infantry": "步兵",
+      "cavalry": "骑兵"
+    },
+    "table": {
+      "lv": "等级",
+      "level": "等级",
+      "level_short": "Lv",
+      "requirements": "条件",
+      "bread": "粮食",
+      "wood": "木材",
+      "stone": "石料",
+      "iron": "铁",
+      "gold": "金币",
+      "dust": "真金粉末",
+      "time": "时间",
+      "power": "战斗力",
+      "bonus": "加成",
+      "none": "-"
+    },
+    "units": { "k": "K", "m": "M", "b": "B", "day": "天", "hour": "小时", "minute": "分", "second": "秒" },
+    "load_failed": "数据加载失败。"
+  }
+}

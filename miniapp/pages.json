@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/buildings/index",
+      "style": {
+        "navigationBarTitleText": "建筑"
+      }
+    },
+    {
+      "path": "pages/buildings/detail",
+      "style": {
+        "navigationBarTitleText": "建筑详情"
+      }
+    },
+    {
+      "path": "pages/heroes/index",
+      "style": {
+        "navigationBarTitleText": "英雄"
+      }
+    },
+    {
+      "path": "pages/hero/detail",
+      "style": {
+        "navigationBarTitleText": "英雄详情"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subpackages/calculators",
+      "pages": [
+        {
+          "path": "pages/building"
+        },
+        {
+          "path": "pages/charm"
+        },
+        {
+          "path": "pages/gear"
+        },
+        {
+          "path": "pages/training"
+        }
+      ]
+    },
+    {
+      "root": "subpackages/database",
+      "pages": [
+        {
+          "path": "pages/index"
+        }
+      ]
+    },
+    {
+      "root": "subpackages/waracademy",
+      "pages": [
+        {
+          "path": "pages/index"
+        },
+        {
+          "path": "pages/infantry"
+        },
+        {
+          "path": "pages/archer"
+        },
+        {
+          "path": "pages/cavalry"
+        }
+      ]
+    },
+    {
+      "root": "subpackages/guides",
+      "pages": [
+        {
+          "path": "pages/index"
+        },
+        {
+          "path": "pages/detail"
+        }
+      ]
+    }
+  ],
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#111",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/buildings/index",
+        "text": "建筑"
+      },
+      {
+        "pagePath": "pages/heroes/index",
+        "text": "英雄"
+      }
+    ]
+  }
+}

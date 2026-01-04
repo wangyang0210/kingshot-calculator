@@ -1,0 +1,109 @@
+{
+  "calc": {
+    "meta": { "title": "建物計算機 | KingshotData KR" },
+    "title": "建物計算機",
+    "desc": "アップグレードに必要な資源と時間を確認できます。",
+    "howto": {
+      "title": "使用方法",
+      "step1": "アップグレードする建物を選択してください。",
+      "step2": "現在レベルと目標レベルを入力してください。",
+      "step3": {
+        "head": "建設速度ボーナスを入力してください。",
+        "help": "プロフィール → 戦力画面下部で建設速度ボーナスを確認できます。（サウル/ウルフ/研究/国王・官職などを含む）"
+      },
+      "step4": "タウンセンターをアップグレードする場合、「前提建物を含む」オプションをチェックできます。",
+      "step5": "ペットバフが無効の場合は手動で追加できます。布告バフは手動でチェックする必要があります。"
+    },
+    "levelGuide": {
+      "title": "レベルガイド",
+      "tg1": "TG 1 = Lv. 35",
+      "tg2": "TG 2 = Lv. 40",
+      "tg3": "TG 3 = Lv. 45",
+      "tg4": "TG 4 = Lv. 50",
+      "tg5": "TG 5 = Lv. 55"
+    },
+    "form": {
+      "building": {
+        "label": "建物選択",
+        "option": {
+          "towncenter": "タウンセンター",
+          "embassy": "大使館",
+          "command": "司令部",
+          "barracks": "歩兵兵営",
+          "stable": "騎兵兵営",
+          "range": "弓兵射場",
+          "academy": "アカデミー",
+          "infirmary": "診療所",
+          "war-academy": "戦争アカデミー"
+        }
+      },
+      "startLevel": { "label": "現在レベル", "placeholder": "現在レベルを入力" },
+      "targetLevel": { "label": "目標レベル", "placeholder": "目標レベルを入力" },
+      "speedBonus": { "label": "建設速度ボーナス (%)" },
+      "saulBonus": { "label": "サウルスキルボーナス (%) — 建設コストに適用" },
+      "wolfBonus": { "label": "ウルフスキルボーナス (%)" },
+      "positionBonus": { "label": "国王/官職ボーナス (%)" },
+      "doubleTime": { "label": "布告適用（時間20%短縮）" },
+      "includePrereq": { "label": "前提建物を含む" },
+      "actions": { "calculate": "アップグレード計算", "clear": "入力クリア" }
+    },
+    "prereq": {
+      "summary": "前提建物レベル（現在のレベル）",
+      "academy": "アカデミー",
+      "range": "弓兵射場",
+      "stable": "騎兵兵営",
+      "barracks": "歩兵兵営",
+      "embassy": "大使館",
+      "note": "* 空欄の場合は0として扱われます。"
+    },
+    "prereqBox": {
+      "title": "前提条件",
+      "empty": "前提条件なし"
+    },
+    "prereqSummary": {
+      "title": "前提建物の概要",
+      "current": "現在",
+      "required": "必要"
+    },
+    "result": {
+      "upgrade": "アップグレード:",
+      "time": "建設時間:",
+      "totalWithSaul": "総資源消費量（サウル適用）"
+    },
+    "table": {
+      "title": "詳細",
+      "titleWithPrereq": "詳細（前提条件を含む）",
+      "col": {
+        "building": "建物",
+        "level": "レベル",
+        "time": "建設時間",
+        "bread": "パン",
+        "wood": "木材",
+        "stone": "石材",
+        "iron": "鉄",
+        "truegold": "トゥルーゴールド"
+      }
+    },
+    "common": {
+      "lv": "Lv.",
+      "percentZero": "0",
+      "example25": "例: 25",
+      "example20": "例: 20",
+      "example15": "例: 15"
+    },
+    "time": {
+      "daySuffix": "日",
+      "hourSuffix": "時間",
+      "minSuffix": "分",
+      "secSuffix": "秒"
+    },
+    "alert": {
+      "invalidLevel": "レベル入力が正しくありません。",
+      "targetGtStart": "目標レベルは開始レベルより大きくなければなりません。",
+      "noData": "データがありません。"
+    },
+    "error": {
+      "load": "データ読み込み失敗"
+    }
+  }
+}

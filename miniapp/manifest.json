@@ -1,0 +1,21 @@
+{
+  "name": "KingshotData MiniApp",
+  "appid": "",
+  "description": "Kingshot data mini program built with uni-app and Vue3",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {},
+  "mp-weixin": {
+    "optimization": {
+      "subPackages": true
+    },
+    "permission": {
+      "scope.userLocation": {
+        "desc": "用于定位相关功能"
+      }
+    },
+    "requiredBackgroundModes": [],
+    "uniStatistics": {}
+  }
+}

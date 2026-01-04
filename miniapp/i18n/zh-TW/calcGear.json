@@ -1,0 +1,72 @@
+{
+  "calcGear": {
+    "meta": { "title": "領主裝備計算器 | KingshotData KR" },
+    "title": "領主裝備計算器",
+    "desc": "使用方便的Kingshot領主裝備計算器吧。",
+    "howto": {
+      "title": "使用方法",
+      "step1": "請選擇當前擁有的領主裝備階段。",
+      "step2": "請選擇要升級的目標階段。",
+      "step3": "在上方標籤中選擇要升級的裝備槽位。",
+      "slotsHelp": "槽位：帽子·項鍊(騎兵)、上衣·褲子(步兵)、戒指·法杖(弓兵)",
+      "step4": "點擊計算按鈕。"
+    },
+    "notice": {
+      "title": "注意事項",
+      "p1": "本資料基於遊戲內標示數值整理的粉絲自製數據。",
+      "li1": "數值可能會因更新/平衡調整而有所變動。",
+      "li2": "如有錯字或錯誤，請透過聯絡我們回報。",
+      "contact": "聯絡我們"
+    },
+    "slots": {
+      "hat": "帽子",
+      "necklace": "項鍊",
+      "armor": "上衣",
+      "pants": "褲子",
+      "ring": "戒指",
+      "staff": "法杖"
+    },
+    "classes": {
+      "cavalry": "騎兵",
+      "infantry": "步兵",
+      "archer": "弓兵"
+    },
+    "actions": {
+      "calculate": "計算",
+      "clear": "重設",
+      "showDetail": "顯示詳細",
+      "hideDetail": "隱藏詳細"
+    },
+    "kpi": {
+      "satin": "絲綢",
+      "thread": "金絲",
+      "sketch": "設計草圖",
+      "score": "裝備評分"
+    },
+    "cols": {
+      "slot": "槽位",
+      "class": "兵種",
+      "satin": "絲綢",
+      "thread": "金絲",
+      "sketch": "設計草圖",
+      "score": "評分",
+      "total": "合計",
+      "selected": "已選擇 {n} 個",
+      "current": "當前階段",
+      "target": "目標階段",
+      "manual": "說明書需求量",
+      "blueprint": "圖紙需求量",
+      "attribute": "屬性提升"
+    },
+    "alerts": {
+      "needSlot": "請至少選擇一個槽位。",
+      "invalidRange": "當前階段必須低於目標階段。",
+      "loadFail": "數據載入失敗。"
+    },
+    "misc": {
+      "from": "當前階段",
+      "to": "目標階段",
+      "hint": "可一次合併多個槽位。若不同槽位費用不同，請使用 stepsMap 提供。"
+    }
+  }
+}

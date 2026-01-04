@@ -1,0 +1,109 @@
+{
+  "calc": {
+    "meta": { "title": "Building Calculator | KingshotData KR" },
+    "title": "Building Calculator",
+    "desc": "Check the resources and time required for upgrades.",
+    "howto": {
+      "title": "How to Use",
+      "step1": "Select the building to upgrade.",
+      "step2": "Enter the current level and target level.",
+      "step3": {
+        "head": "Enter the construction speed bonus.",
+        "help": "Go to Profile → Power screen to check your construction speed bonus. (Includes Saul/Wolf/Research/King & Position bonuses)"
+      },
+      "step4": "If upgrading the Town Center, you can check the \"Include Prerequisite Buildings\" option.",
+      "step5": "If pet buffs are disabled, you can add pet buffs manually. Decree buffs must be checked manually."
+    },
+    "levelGuide": {
+      "title": "Level Guide",
+      "tg1": "TG 1 = Lv. 35",
+      "tg2": "TG 2 = Lv. 40",
+      "tg3": "TG 3 = Lv. 45",
+      "tg4": "TG 4 = Lv. 50",
+      "tg5": "TG 5 = Lv. 55"
+    },
+    "form": {
+      "building": {
+        "label": "Select Building",
+        "option": {
+          "towncenter": "Town Center",
+          "embassy": "Embassy",
+          "command": "Command Center",
+          "barracks": "Barracks",
+          "stable": "Stable",
+          "range": "Range",
+          "academy": "Academy",
+          "infirmary": "Infirmary",
+          "war-academy": "War Academy"
+        }
+      },
+      "startLevel": { "label": "Current Level", "placeholder": "Enter current level" },
+      "targetLevel": { "label": "Target Level", "placeholder": "Enter target level" },
+      "speedBonus": { "label": "Construction Speed Bonus (%)" },
+      "saulBonus": { "label": "Saul Skill Bonus (%) — Applies to construction cost" },
+      "wolfBonus": { "label": "Wolf Skill Bonus (%)" },
+      "positionBonus": { "label": "King/Position Bonus (%)" },
+      "doubleTime": { "label": "Decree Applied (20% time reduction)" },
+      "includePrereq": { "label": "Include Prerequisite Buildings" },
+      "actions": { "calculate": "Calculate Upgrade", "clear": "Clear Form" }
+    },
+    "prereq": {
+      "summary": "Prerequisite Building Levels (Your Current Levels)",
+      "academy": "Academy",
+      "range": "Range",
+      "stable": "Stable",
+      "barracks": "Barracks",
+      "embassy": "Embassy",
+      "note": "* If left blank, treated as 0."
+    },
+    "prereqBox": {
+      "title": "Prerequisites",
+      "empty": "No prerequisites"
+    },
+    "prereqSummary": {
+      "title": "Prerequisite Summary",
+      "current": "Current",
+      "required": "Required"
+    },
+    "result": {
+      "upgrade": "Upgrade:",
+      "time": "Construction Time:",
+      "totalWithSaul": "Total Resources (with Saul applied)"
+    },
+    "table": {
+      "title": "Details",
+      "titleWithPrereq": "Details (with prerequisites)",
+      "col": {
+        "building": "Building",
+        "level": "Level",
+        "time": "Construction Time",
+        "bread": "Bread",
+        "wood": "Wood",
+        "stone": "Stone",
+        "iron": "Iron",
+        "truegold": "Truegold"
+      }
+    },
+    "common": {
+      "lv": "Lv.",
+      "percentZero": "0",
+      "example25": "Ex: 25",
+      "example20": "Ex: 20",
+      "example15": "Ex: 15"
+    },
+    "time": {
+      "daySuffix": "d",
+      "hourSuffix": "h",
+      "minSuffix": "m",
+      "secSuffix": "s"
+    },
+    "alert": {
+      "invalidLevel": "Invalid level input.",
+      "targetGtStart": "Target level must be higher than start level.",
+      "noData": "No data available."
+    },
+    "error": {
+      "load": "Failed to load data."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "trainCalc": {
+    "units": { "day": "日", "hour": "時間", "min": "分", "sec": "秒" },
+    "rows": {
+      "possibleTroops": "訓練可能数",
+      "inputTroops": "入力数",
+      "hogPoints": "HOG ポイント",
+      "kvkPoints": "KvK ポイント",
+      "govPoints": "知事ポイント",
+      "powerInc": "戦力増加",
+      "timePerOneApplied": "1人あたり時間",
+      "needAccelTime": "必要加速時間"
+    },
+    "level": "レベル {n}",
+    "form": {
+      "mode": { "training": "訓練", "promotion": "昇格" },
+      "seg": { "time": "時間別", "troops": "数量別" },
+      "trainSpeed": "訓練速度 (%)",
+      "days": "加速日数",
+      "count": "部隊数",
+      "calculate": "計算する"
+    }
+  }
+}

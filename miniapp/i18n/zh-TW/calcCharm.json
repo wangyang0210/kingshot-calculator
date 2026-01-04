@@ -1,0 +1,49 @@
+{
+  "calcCharm": {
+    "meta": { "title": "領主寶石計算器 | KingshotData KR" },
+    "title": "領主寶石計算器",
+    "desc": "輸入當前寶石等級、目標等級以及各兵種數量，即可計算所需的寶石手冊/寶石圖紙和總屬性提升。",
+    "howto": {
+      "title": "使用方法",
+      "step1": "請選擇當前寶石等級和目標等級。",
+      "step2": "輸入要升級的寶石各兵種數量。（騎兵·步兵·弓兵 / 例: 3·3·3）",
+      "step3": "點擊「計算」按鈕。"
+    },
+    "form": {
+      "currentLevel": { "label": "當前等級", "placeholder": "選擇當前等級" },
+      "targetLevel": { "label": "目標等級", "placeholder": "選擇目標等級" },
+      "counts": {
+        "label": "各兵種數量",
+        "placeholder": "例: 3·3·3",
+        "cavalry": "騎兵",
+        "infantry": "步兵",
+        "archer": "弓兵"
+      },
+      "actions": {
+        "calculate": "計算",
+        "clear": "重設",
+        "fill9": "預設 3·3·3",
+        "fill9Title": "將所有兵種填為3個",
+        "clearTitle": "重設所有兵種數量"
+      }
+    },
+    "result": {
+      "title": "結果",
+      "manual": "所需寶石手冊",
+      "blueprint": "所需寶石圖紙",
+      "attribute": "總屬性提升"
+    },
+    "detail": {
+      "level": "等級（達到）",
+      "manual": "所需手冊",
+      "blueprint": "所需圖紙",
+      "attr": "該等級屬性％"
+    },
+    "table": {
+      "level": "等級",
+      "manual": "寶石手冊",
+      "blueprint": "寶石圖紙",
+      "attr": "屬性(%)"
+    }
+  }
+}

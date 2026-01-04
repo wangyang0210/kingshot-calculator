@@ -1,0 +1,24 @@
+{
+  "trainCalc": {
+    "units": { "day": "d", "hour": "h", "min": "m", "sec": "s" },
+    "rows": {
+      "possibleTroops": "Possible Troops",
+      "inputTroops": "Input Troops",
+      "hogPoints": "HOG Points",
+      "kvkPoints": "KvK Points",
+      "govPoints": "Governor Points",
+      "powerInc": "Power Increase",
+      "timePerOneApplied": "Time per One",
+      "needAccelTime": "Acceleration Time Needed"
+    },
+    "level": "Level {n}",
+    "form": {
+      "mode": { "training": "Training", "promotion": "Promotion" },
+      "seg": { "time": "By Time", "troops": "By Count" },
+      "trainSpeed": "Training Speed (%)",
+      "days": "Accelerated Days",
+      "count": "Troop Count",
+      "calculate": "Calculate"
+    }
+  }
+}
