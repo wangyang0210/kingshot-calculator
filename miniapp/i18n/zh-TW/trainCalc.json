@@ -18,7 +18,8 @@
       "trainSpeed": "訓練速度 (%)",
       "days": "加速天數",
       "count": "部隊數量",
-      "calculate": "計算"
+      "calculate": "計算",
+      "clear": "重設"
     }
   }
 }

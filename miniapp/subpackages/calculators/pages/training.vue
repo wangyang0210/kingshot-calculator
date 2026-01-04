@@ -21,7 +21,10 @@
       <input class="inp" type="number" v-model.number="trainSpeed" :placeholder="t('trainCalc.form.trainSpeed','训练速度(%)')" />
       <input v-if="inputMode==='time'" class="inp" type="number" v-model.number="days" :placeholder="t('trainCalc.form.days','加速天数(天)')" />
       <input v-else class="inp" type="number" v-model.number="count" :placeholder="t('trainCalc.form.count','部队数量(个)')" />
-      <button class="btn" @tap="calc">{{ t('trainCalc.form.calculate','计算') }}</button>
+      <view class="actions">
+        <button class="btn" @tap="calc">{{ t('trainCalc.form.calculate','计算') }}</button>
+        <button class="btn outline" @tap="clear">{{ t('trainCalc.form.clear','重置') }}</button>
+      </view>
     </view>
     <view v-if="out" class="result">
       <view class="row"><text>数量</text><text>{{ fmt(out.count) }}</text></view>
@@ -40,7 +43,7 @@
 </template>
 
 <script setup>
-import { setLang, getLang } from '../../../utils/i18n'
+import { t, setLang, getLang } from '../../../utils/i18n'
 import { getAvailableTiers, calcByTime, calcByTroops } from '../../../composables/calc/training'
 const modes = [t('trainCalc.form.mode.training','训练'), t('trainCalc.form.mode.promotion','晋升')]
 const modeIdx = ref(0)
@@ -59,7 +62,20 @@ const out = ref(null)
 function onMode(e){ modeIdx.value = Number(e.detail.value||0); toIdx.value = 0 }
 function setInput(m){ inputMode.value = m }
 function fmt(n,d=0){ if(n==null||isNaN(n)) return '-'; return Number(n).toLocaleString(undefined,{maximumFractionDigits:d,minimumFractionDigits:d}) }
-function hms(sec){ if(sec==null||isNaN(sec)) return '-'; sec=Math.round(sec); const d=Math.floor(sec/86400); sec%=86400; const h=Math.floor(sec/3600); sec%=3600; const m=Math.floor(sec/60); const s=sec%60; const p=[]; if(d)p.push(d+'天'); if(h)p.push(h+'小时'); if(m)p.push(m+'分'); if(s||!p.length)p.push(s+'秒'); return p.join(' ') }
+function hms(sec){
+  if(sec==null||isNaN(sec)) return '-'
+  sec=Math.round(sec)
+  const d=Math.floor(sec/86400); sec%=86400
+  const h=Math.floor(sec/3600); sec%=3600
+  const m=Math.floor(sec/60)
+  const s=sec%60
+  const p=[]
+  if(d)p.push(d+t('trainCalc.units.day','天'))
+  if(h)p.push(h+t('trainCalc.units.hour','小时'))
+  if(m)p.push(m+t('trainCalc.units.min','分'))
+  if(s||!p.length)p.push(s+t('trainCalc.units.sec','秒'))
+  return p.join(' ')
+}
 function calc(){
   const tosList = mode.value==='training' ? tosTraining : tosPromotion
   const toTier = tosList[toIdx.value]
@@ -67,6 +83,16 @@ function calc(){
   out.value = inputMode.value==='time'
     ? calcByTime({ mode: mode.value, fromTier, toTier, trainSpeedPct: trainSpeed.value, days: days.value })
     : calcByTroops({ mode: mode.value, fromTier, toTier, trainSpeedPct: trainSpeed.value, count: count.value })
+}
+function clear(){
+  modeIdx.value = 0
+  fromIdx.value = 0
+  toIdx.value = 0
+  inputMode.value = 'time'
+  trainSpeed.value = 0
+  days.value = 1
+  count.value = 1000
+  out.value = null
 }
 const tos = computed(() => mode.value==='training' ? tosTraining : tosPromotion)
 onShow(() => { setLang(getLang()) })
@@ -81,6 +107,8 @@ onShow(() => { setLang(getLang()) })
 .seg-btn.active { background:#2b7cff; color:#fff; }
 .inp { background:#f1f4f8; border-radius:12rpx; padding:12rpx 16rpx; }
 .btn { background:#2b7cff; color:#fff; border-radius:12rpx; padding:12rpx 16rpx; }
+.btn.outline { background:#fff; color:#2b7cff; border:2rpx solid #2b7cff; }
+.actions { display:flex; gap:12rpx; }
 .result { margin-top:24rpx; background:#fff; border-radius:16rpx; padding:24rpx; }
 .row { display:flex; justify-content:space-between; padding:8rpx 0; color:#111; }
 </style>

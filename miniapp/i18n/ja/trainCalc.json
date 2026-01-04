@@ -18,7 +18,8 @@
       "trainSpeed": "訓練速度 (%)",
       "days": "加速日数",
       "count": "部隊数",
-      "calculate": "計算する"
+      "calculate": "計算する",
+      "clear": "リセット"
     }
   }
 }

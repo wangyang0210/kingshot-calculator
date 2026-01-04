@@ -18,7 +18,8 @@
       "trainSpeed": "훈련 속도 (%)",
       "days": "가속 일수",
       "count": "병력 수",
-      "calculate": "계산하기"
+      "calculate": "계산하기",
+      "clear": "초기화"
     }
   }
 }

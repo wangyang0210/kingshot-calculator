@@ -9,7 +9,10 @@
       <input class="inp" type="number" v-model.number="speedBonus" :placeholder="t('calc.form.speedBonus.label','建造速度(%)')" />
       <input class="inp" type="number" v-model.number="saulBonus" :placeholder="t('calc.form.saulBonus.label','萨乌尔折扣(%)')" />
       <switch :checked="doubleTime" @change="e=>doubleTime.value=e.detail.value"></switch>
-      <button class="btn" @tap="calc">{{ t('calc.form.calculate','计算') }}</button>
+      <view class="actions">
+        <button class="btn" @tap="calc">{{ t('calc.form.actions.calculate','计算') }}</button>
+        <button class="btn outline" @tap="clear">{{ t('calc.form.actions.clear','清空') }}</button>
+      </view>
     </view>
     <view class="result" v-if="out">
       <view class="row"><text>{{ t('calc.table.col.bread','面包') }}</text><text>{{ out.meat }}</text></view>
@@ -46,6 +49,7 @@ function calc(){
     doubleTime: doubleTime.value
   })
 }
+function clear(){ start.value = 1; target.value = 5; speedBonus.value = 0; saulBonus.value = 0; doubleTime.value = false; out.value = null }
 onShow(() => { setLang(getLang()) })
 </script>
 
@@ -55,6 +59,8 @@ onShow(() => { setLang(getLang()) })
 .picker { padding: 16rpx; background: #f1f4f8; border-radius: 12rpx; }
 .inp { background: #f1f4f8; border-radius: 12rpx; padding: 12rpx 16rpx; }
 .btn { background: #2b7cff; color: #fff; border-radius: 12rpx; padding: 12rpx 16rpx; }
+.btn.outline { background:#fff; color:#2b7cff; border:2rpx solid #2b7cff; }
+.actions { display:flex; gap:12rpx; }
 .result { margin-top: 24rpx; background:#fff; border-radius:16rpx; padding: 24rpx; }
 .row { display:flex; justify-content:space-between; padding: 8rpx 0; color:#111; }
 </style>

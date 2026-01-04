@@ -18,7 +18,8 @@
       "trainSpeed": "Training Speed (%)",
       "days": "Accelerated Days",
       "count": "Troop Count",
-      "calculate": "Calculate"
+      "calculate": "Calculate",
+      "clear": "Clear"
     }
   }
 }
