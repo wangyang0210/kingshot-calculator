@@ -1,32 +1,30 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "奔奔小精灵"
 			}
 		},
-    {
-      "path": "pages/calculator/building",
-      "style": { "navigationBarTitleText": "建筑计算器" }
-    },
-    {
-      "path": "pages/calculator/gear",
-      "style": { "navigationBarTitleText": "领主装备计算器" }
-    },
-    {
-      "path": "pages/calculator/charm",
-      "style": { "navigationBarTitleText": "领主宝石计算器" }
-    },
-    {
-      "path": "pages/calculator/training",
-      "style": { "navigationBarTitleText": "训练/升阶计算器" }
-    }
+		{
+			"path": "pages/database/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "资料库"
+			}
+		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "奔奔小精灵",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue"
+		}
 	}
 }
